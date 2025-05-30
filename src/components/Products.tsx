@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Joystick, Eye, Solar, App } from 'lucide-react';
+import { Joystick, Eye, Sun, Smartphone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -19,7 +19,7 @@ const Products = () => {
       name: "PulsyGo", 
       description: "Fully motorized smart wheelchair with multi-control systems",
       features: ["Joystick Control", "Voice Control", "Mobile App", "Solar Charging"],
-      icons: [Joystick, "🎤", App, Solar],
+      icons: [Joystick, "🎤", Smartphone, Sun],
       price: "৳45,000 - ৳65,000",
       highlight: "Most Popular",
       color: "bg-green-50 border-pulsy-green"
@@ -28,7 +28,7 @@ const Products = () => {
       name: "PulsyPro",
       description: "Full-featured wheelchair with advanced control systems",
       features: ["Joystick Control", "Voice Control", "Eye Control", "Muscle Signal", "Mobile App"],
-      icons: [Joystick, "🎤", Eye, "💪", App],
+      icons: [Joystick, "🎤", Eye, "💪", Smartphone],
       price: "৳85,000 - ৳120,000",
       highlight: "Most Advanced",
       color: "bg-purple-50 border-purple-400"

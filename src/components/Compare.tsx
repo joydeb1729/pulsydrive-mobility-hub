@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Joystick, Eye, Solar, App } from 'lucide-react';
+import { Joystick, Eye, Sun, Smartphone } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Compare = () => {
@@ -52,7 +52,7 @@ const Compare = () => {
       "Joystick": <Joystick className="w-5 h-5" />,
       "Voice": "🎤",
       "Basic Voice": "🎤",
-      "App": <App className="w-5 h-5" />,
+      "App": <Smartphone className="w-5 h-5" />,
       "Eye": <Eye className="w-5 h-5" />,
       "Muscle": "💪"
     };
@@ -106,7 +106,7 @@ const Compare = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Power Type</h4>
                     <p className="text-sm text-gray-600 flex items-center">
-                      <Solar className="w-4 h-4 mr-1 text-yellow-500" />
+                      <Sun className="w-4 h-4 mr-1 text-yellow-500" />
                       {product.power}
                     </p>
                   </div>
